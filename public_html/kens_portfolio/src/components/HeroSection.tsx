@@ -13,7 +13,12 @@ const HeroSection = ({
   title = "title",
   introduction = "introduction",
   imageUrl = '/ken.jpg',
-  onContactClick = () => console.log("Contact button clicked"),
+  onContactClick = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  },
 }: HeroSectionProps) => {
   return (
     <section className="w-full min-h-[600px] bg-black flex items-center relative overflow-hidden">
@@ -48,12 +53,6 @@ const HeroSection = ({
               Contact Me <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
 
-            <Button
-              variant="outline"
-              className="border-gray-600 text-gray-300 hover:bg-zinc-800"
-            >
-              View Resume
-            </Button>
           </div>
         </div>
 

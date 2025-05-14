@@ -1,12 +1,12 @@
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -98,7 +98,7 @@ const ContactForm = ({ onSubmit }: ContactFormProps = {}) => {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto bg-zinc-900 p-6 rounded-xl border border-zinc-800">
+    <div id="contact-section" className="w-full max-w-2xl mx-auto bg-zinc-900 p-6 rounded-xl border border-zinc-800">
       <Card>
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center text-white-100">

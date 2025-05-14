@@ -76,12 +76,12 @@ const HomePage = () => {
                   <span className="text-sm font-medium text-white-700">
                     Automotive Industry
                   </span>
-                  <span className="text-sm font-medium text-white-700">15%</span>
+                  <span className="text-sm font-medium text-white-700">50%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
                     className="bg-blue-600 h-2 rounded-full"
-                    style={{ width: "15%" }}
+                    style={{ width: "50%" }}
                   ></div>
                 </div>
               </div>
@@ -91,12 +91,12 @@ const HomePage = () => {
                   <span className="text-sm font-medium text-white-700">
                     Data Analysis
                   </span>
-                  <span className="text-sm font-medium text-white-700">25%</span>
+                  <span className="text-sm font-medium text-white-700">50%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
                     className="bg-blue-600 h-2 rounded-full"
-                    style={{ width: "25%" }}
+                    style={{ width: "50%" }}
                   ></div>
                 </div>
               </div>
@@ -106,12 +106,12 @@ const HomePage = () => {
                   <span className="text-sm font-medium text-white-700">
                     Project Management
                   </span>
-                  <span className="text-sm font-medium text-white-700">20%</span>
+                  <span className="text-sm font-medium text-white-700">50%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
                     className="bg-blue-600 h-2 rounded-full"
-                    style={{ width: "20%" }}
+                    style={{ width: "50%" }}
                   ></div>
                 </div>
               </div>
@@ -330,7 +330,7 @@ const HomePage = () => {
             >
               <div>
                 <img
-                  src="src/components/kenimg.jpg"
+                  src="/ken.jpg"
                   alt="Ken Muvatsi at Honda corporate office"
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />
@@ -340,13 +340,13 @@ const HomePage = () => {
                   About Me
                 </h2>
                 <p className="text-lg text-white-400 mb-4">
-                  text..
+                  info
                 </p>
                 <p className="text-lg text-white-600 mb-4">
-                  text..
+                  info
                 </p>
                 <p className="text-lg text-white-600">
-                  text..
+                  info
                 </p>
               </div>
             </motion.div>
