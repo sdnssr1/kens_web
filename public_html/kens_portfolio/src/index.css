@@ -79,4 +79,8 @@
   .glow-silver {
     box-shadow: 0 0 16px 4px hsl(0, 0%, 80%, 0.7), 0 0 32px 8px hsl(0, 0%, 100%, 0.3);
   }
+
+  .btn {
+    @apply px-4 py-2 bg-blue-500 text-white;
+  }
 }

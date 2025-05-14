@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
-
 interface HeroSectionProps {
   name?: string;
   title?: string;
@@ -13,7 +12,7 @@ const HeroSection = ({
   name = "Ken Muvatsi",
   title = "title",
   introduction = "introduction",
-  imageUrl = "/src/components/ken.jpg",
+  imageUrl = '/ken.jpg',
   onContactClick = () => console.log("Contact button clicked"),
 }: HeroSectionProps) => {
   return (
@@ -69,7 +68,7 @@ const HeroSection = ({
           </div>
           <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-black rounded-full flex items-center justify-center shadow-lg border border-gray-700">
             <img
-              src="src/components/Honda.jpg"
+              src="/Honda.jpg"
               alt="Honda Logo"
               className="w-16 h-16 object-contain"
             />
