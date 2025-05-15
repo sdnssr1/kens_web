@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.defaultUIUpdateRunner = void 0;
+const defaultUIUpdateRunner = (innerScope) => {
+    innerScope();
+};
+exports.defaultUIUpdateRunner = defaultUIUpdateRunner;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZG9tVXRpbHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvY2hhbm5lbE1lc3NhZ2luZy9kb21VdGlscy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFTyxNQUFNLHFCQUFxQixHQUFtQixDQUFDLFVBQVUsRUFBRSxFQUFFO0lBQ2xFLFVBQVUsRUFBRSxDQUFDO0FBQ2YsQ0FBQyxDQUFDO0FBRlcsUUFBQSxxQkFBcUIseUJBRWhDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHR5cGUgVUlVcGRhdGVSdW5uZXIgPSAoaW5uZXJTY29wZTogKCkgPT4gdm9pZCkgPT4gdm9pZDtcblxuZXhwb3J0IGNvbnN0IGRlZmF1bHRVSVVwZGF0ZVJ1bm5lcjogVUlVcGRhdGVSdW5uZXIgPSAoaW5uZXJTY29wZSkgPT4ge1xuICBpbm5lclNjb3BlKCk7XG59O1xuIl19
